@@ -28,12 +28,7 @@
 					else if(count > 3){
 						$scope.msg = 'Too much!'
 					}
-					$scope.fontStyle = {
-						"color":"green"
-					};
-					$scope.boxStyle = {
-						"border-color":"green"
-					};
+					
 				}
 				else {
 					enterItems();
@@ -45,12 +40,7 @@
 		}
 		var enterItems = function() {
 			$scope.msg = 'Please enter data first';
-				$scope.fontStyle = {
-					"color":"red"
-				};
-				$scope.boxStyle = {
-					"border-color":"red"
-				};
+				
 		};
 	}
 })();
